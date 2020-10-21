@@ -4,8 +4,9 @@
 
 ##  必备插件
 
-1. [要想代码写的好，这几款IDEA插件你离不了啊！](./idea-plugins/要想代码写的好，这几款IDEA插件你离不了啊！.md)
+1. [要想代码写的好，这几款IDEA插件你离不了！](./idea-plugins/要想代码写的好，这几款IDEA插件你离不了啊！.md)
 2. [jclasslib：一款快速查看Java字节码的神器!力荐！](./idea-plugins/一款IDEA字节码查看神器.md)
+3. [SequenceDiagram:一键生成方法的时序图](./idea-plugins/一键生成方法的时序图.md)
 
 ## 相关话题
 

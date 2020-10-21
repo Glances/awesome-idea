@@ -1,3 +1,25 @@
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [Codota：代码智能提示](#codota代码智能提示)
+  - [代码智能补全](#代码智能补全)
+  - [代码智能搜索](#代码智能搜索)
+- [Alibaba Java Code Guidelines：阿里巴巴 Java 代码规范](#alibaba-java-code-guidelines阿里巴巴-java-代码规范)
+  - [手动配置检测规则](#手动配置检测规则)
+  - [使用效果](#使用效果)
+- [CheckStyle: Java代码格式规范。](#checkstyle-java代码格式规范)
+  - [为何需要CheckStyle插件？](#为何需要checkstyle插件)
+  - [如何在Maven/Gradle项目中集成 Checksytle?](#如何在mavengradle项目中集成-checksytle)
+  - [如何安装？](#如何安装)
+  - [如何自定义检测规则？](#如何自定义检测规则)
+  - [使用效果](#使用效果-1)
+- [SonarLint:帮你优化代码](#sonarlint帮你优化代码)
+
+<!-- /code_chunk_output -->
+
+
 ## Codota：代码智能提示
 
 我一直在用的一个插件，可以说非常好用了（*我身边的很多大佬平时写代码也会用这个插件*）。
