@@ -9,7 +9,6 @@
 - [Save Actions:优化保存操作](#save-actions%e4%bc%98%e5%8c%96%e4%bf%9d%e5%ad%98%e6%93%8d%e4%bd%9c)
 - [Maven Helper:分析Maven项目的相关依赖](#maven-helper%e5%88%86%e6%9e%90maven%e9%a1%b9%e7%9b%ae%e7%9a%84%e7%9b%b8%e5%85%b3%e4%be%9d%e8%b5%96)
 - [EasyCode:一键帮你生成所需代码](#easycode%e4%b8%80%e9%94%ae%e5%b8%ae%e4%bd%a0%e7%94%9f%e6%88%90%e6%89%80%e9%9c%80%e4%bb%a3%e7%a0%81)
-- [CheckStyle:代码格式检查](#checkstyle%e4%bb%a3%e7%a0%81%e6%a0%bc%e5%bc%8f%e6%a3%80%e6%9f%a5)
 - [Lombok:帮你简化代码](#lombok%e5%b8%ae%e4%bd%a0%e7%ae%80%e5%8c%96%e4%bb%a3%e7%a0%81)
 - [CodeGlance:代码微型地图](#codeglance%e4%bb%a3%e7%a0%81%e5%be%ae%e5%9e%8b%e5%9c%b0%e5%9b%be)
 - [Java Stream Debugger:Java8 Stream调试器](#java-stream-debuggerjava8-stream%e8%b0%83%e8%af%95%e5%99%a8)

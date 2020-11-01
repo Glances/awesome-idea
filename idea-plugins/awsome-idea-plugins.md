@@ -10,7 +10,6 @@
 - [RestfulToolkit—RESTful服务开发](#restfultoolkitrestful%e6%9c%8d%e5%8a%a1%e5%bc%80%e5%8f%91)
 - [Key Promoter X—快捷键](#key-promoter-x%e5%bf%ab%e6%8d%b7%e9%94%ae)
 - [Presentation Assistant—快捷键展示](#presentation-assistant%e5%bf%ab%e6%8d%b7%e9%94%ae%e5%b1%95%e7%a4%ba)
-- [Alibaba Java Code Guidelines—阿里巴巴 Java 代码规范](#alibaba-java-code-guidelines%e9%98%bf%e9%87%8c%e5%b7%b4%e5%b7%b4-java-%e4%bb%a3%e7%a0%81%e8%a7%84%e8%8c%83)
 - [GsonFormat+RoboPOJOGenerator—JSON转类对象](#gsonformatrobopojogeneratorjson%e8%bd%ac%e7%b1%bb%e5%af%b9%e8%b1%a1)
 - [Statistic—项目信息统计](#statistic%e9%a1%b9%e7%9b%ae%e4%bf%a1%e6%81%af%e7%bb%9f%e8%ae%a1)
 - [Translation-必备的翻译插件](#translation-%e5%bf%85%e5%a4%87%e7%9a%84%e7%bf%bb%e8%af%91%e6%8f%92%e4%bb%b6)
@@ -63,26 +62,6 @@
   "rememberMe": true
 }
 ```
-
-### Key Promoter X—快捷键
-
-相信我！这一定是IDEA必备的一个插件。**它的功能主要是在一些你本可以使用快捷键操作的地方提醒你用快捷键操作。** 比如我直接点击tab栏下的菜单打开 Version Control(版本控制) 的话，这个插件就会提示我说你可以用快捷键 `command+9`或者`shift+command+9`打开，如下图所示：
-
-![](./pictures/Key-Promoter-X1.png)
-
-**除了这个很棒的功能之外，它还有一个功能我觉得非常棒，那就是展示出哪些快捷键你使用的次数最多！超级赞！！！**
-
-*Guide哥：快捷键真的很重要！入职之后，每次看着同事们花里胡哨的快捷键操作，咔咔咔很快就完成了某个操作，我才深深意识到它的重要性。不夸张的说，你用IDEA开发，常用的快捷键不熟悉的话，效率至少降低 30%。*
-
-![](./pictures/Key-Promoter-X2.png)
-
-小伙，你使用快捷键进行操作的时候，是帅啊！但是，你给别人演示的时候，别人可能根本不知道你进行了什么快捷键操作。这个时候 **Presentation Assistant** 这个插件就站出来了！
-
-### Presentation Assistant—快捷键展示
-
-安装这个插件之后，你用键盘快捷键所做的操作都会被展示出来，非常适合自己在录制视频或者给别人展示代码的时候使用。比如我使用快捷键 `command+9`打开 Version Control ，使用了这个插件之后的效果如下图所示：
-
-![](./pictures/Presentation-Assistant.gif)
 
 ### GsonFormat+RoboPOJOGenerator—JSON转类对象
 
