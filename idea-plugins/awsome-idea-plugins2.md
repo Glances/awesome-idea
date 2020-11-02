@@ -116,9 +116,7 @@ Stream API 让你的代码更加优雅，但是有一个缺点是代码更难阅
 
  ![](./pictures/git-commit-template/Git-Commit-Template2.png)
 
-完成之后的效果是这样的：
-
- ![](./pictures/git-commit-template/Git-Commit-Template3.png)
+完成之后的效果是这样的： ![](./pictures/git-commit-template/Git-Commit-Template3.png)
 
 ### 其他常用插件推荐
 

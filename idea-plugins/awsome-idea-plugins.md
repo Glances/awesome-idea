@@ -29,40 +29,6 @@
 
 ![](./pictures/IDE-Features-Trainer2.png)
 
-### RestfulToolkit—RESTful服务开发
-
-专为 RESTful 服务开发而设计的插件，有了它之后，你可以：
-
-1.**根据 URL 直接跳转到对应的方法定义 (Windows: `ctrl+\` or `ctrl+alt+n`  Mac:`command+\` or `command+alt+n`  )并且提供了一个 Services tree 的可视化显示窗口。** 如下图所示:
-
-![](./pictures/RestfulToolkit1.png)
-
-**2.作为一个简单的 http 请求工具来使用。**
-
-![](./pictures/RestfulToolkit2.png)
-
-**4.在请求方法上添加了有用功能: 复制生成 URL、复制方法参数...**
-
-我们选中的某个请求对应的方法然后右击，你会发现多了这样几个选项。我们选择`Generate & Copy Full URL`，这样你就把整个请求的路径复制下来了：`http://localhost:9333/api/users?pageNum=1&pageSize=1` 。
-
-![](./pictures/RestfulToolkit3.png)
-
-**5.其他功能: java 类上添加 Convert to JSON 功能，格式化 json 数据 ( Windows: Ctrl + Enter; Mac: Command + Enter )。**
-
-我们选中的某个类对应的方法然后右击，你会发现多了这样几个选项。
-
-![](./pictures/RestfulToolkit4.png)
-
-当我们选择`Convert to JSON`的话，你会得到：
-
-```json
-{
-  "username": "demoData",
-  "password": "demoData",
-  "rememberMe": true
-}
-```
-
 ### GsonFormat+RoboPOJOGenerator—JSON转类对象
 
 这个插件可以根据Gson库使用的要求,将JSONObject格式的String 解析成实体类。
