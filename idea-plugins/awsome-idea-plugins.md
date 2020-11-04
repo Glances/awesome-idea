@@ -7,11 +7,7 @@
 <!-- TOC -->
 
 - [IDE Features Trainer—IDEA交互式教程](#ide-features-traineridea%e4%ba%a4%e4%ba%92%e5%bc%8f%e6%95%99%e7%a8%8b)
-- [RestfulToolkit—RESTful服务开发](#restfultoolkitrestful%e6%9c%8d%e5%8a%a1%e5%bc%80%e5%8f%91)
-- [Key Promoter X—快捷键](#key-promoter-x%e5%bf%ab%e6%8d%b7%e9%94%ae)
-- [Presentation Assistant—快捷键展示](#presentation-assistant%e5%bf%ab%e6%8d%b7%e9%94%ae%e5%b1%95%e7%a4%ba)
 - [GsonFormat+RoboPOJOGenerator—JSON转类对象](#gsonformatrobopojogeneratorjson%e8%bd%ac%e7%b1%bb%e5%af%b9%e8%b1%a1)
-- [Statistic—项目信息统计](#statistic%e9%a1%b9%e7%9b%ae%e4%bf%a1%e6%81%af%e7%bb%9f%e8%ae%a1)
 - [Translation-必备的翻译插件](#translation-%e5%bf%85%e5%a4%87%e7%9a%84%e7%bf%bb%e8%af%91%e6%8f%92%e4%bb%b6)
 - [CamelCase-多种命名格式之间切换](#camelcase-%e5%a4%9a%e7%a7%8d%e5%91%bd%e5%90%8d%e6%a0%bc%e5%bc%8f%e4%b9%8b%e9%97%b4%e5%88%87%e6%8d%a2)
 
@@ -50,16 +46,6 @@
 然后将JSON格式的数据粘贴进去之后，配置相关属性之后选择“*Generate*”
 
 ![](./pictures/RoboPOJOGenerator2.png)
-
-### Statistic—项目信息统计
-
-有了这个插件之后你可以非常直观地看到你的项目中所有类型的文件的信息比如数量、大小等等，可以帮助你更好地了解你们的项目。
-
-![](./pictures/Statistic1.png)
-
-你还可以使用它看所有类的总行数、有效代码行数、注释行数、以及有效代码比重等等这些东西。
-
-![](./pictures/Statistic2.png)
 
 ### Translation-必备的翻译插件
 
