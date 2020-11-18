@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>github.javaguide.my-first-idea-plugin</id>
+    <!--插件的名称-->
+    <name>Beauty</name>
+    <!--插件的作者相关信息-->
+    <vendor email="koushuangbwcx@163.com" url="https://github.com/Snailclimb">JavaGuide</vendor>
+    <!--插件的介绍-->
+    <description><![CDATA[
+     Guide哥代码开发的第一款IDEA插件<br>
+    <em>这尼玛是什么垃圾插件！！！</em>
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="test.hello" class="HelloAction" text="Hello" description="IDEA插件入门">
+            <add-to-group group-id="FileMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>

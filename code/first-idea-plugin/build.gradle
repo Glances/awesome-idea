@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '0.6.3'
+}
+
+group 'github.javaguide'
+// 当前插件版本
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+// 项目依赖
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+// 当前开发该插件的 IDEA 版本
+intellij {
+    version '2020.1.2'
+}
+patchPluginXml {
+    // 版本更新记录
+    changeNotes """
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>"""
+}
