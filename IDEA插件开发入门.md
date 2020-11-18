@@ -4,7 +4,7 @@
 
 我自己想过，但是没去尝试过。刚好有一位读者想让我写一篇入门 IDEA 开发的文章，所以，周末就花了一下午时间写了这篇文章。
 
-![image-20201118071711216](../../../../Library/Application Support/typora-user-images/image-20201118071711216.png)
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118071711216.png)
 
 不过，**这篇文章只是简单带各位小伙伴入门一下 IDEA 插件开发**，个人精力有限，暂时不会深入探讨太多。如果你已经有 IDEA 插件开发的相关经验的话，这篇文章就可以不用看了，因为会浪费你 3 分钟的时间。
 
@@ -193,9 +193,26 @@ public class HelloAction extends AnAction {
 
 然后，简单写一个方法来请求调用机器人。由于代码比较简单，我这里就不放出来了，大家简单看一下效果就好。
 
-代码地址：
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118075803163.png)
 
-![image-20201118075803163](../../../../Library/Application Support/typora-user-images/image-20201118075803163.png)
+代码地址：[https://github.com/Snailclimb/awesome-idea/tree/master/code/first-idea-plugin](https://github.com/Snailclimb/awesome-idea/tree/master/code/first-idea-plugin)  。
 
 ## 06 深入学习
+
+如果你想要深入学习的 IDEA 插件的话，可以看一下官网文档：[https://jetbrains.org/intellij/sdk/docs/basics/basics.html ](https://jetbrains.org/intellij/sdk/docs/basics/basics.html) 。
+
+这方面的资料还是比较少的。除了官方文档的话，你还可以简单看看下面这几篇文章：
+
+- [8条经验轻松上手IDEA插件开发](https://developer.aliyun.com/article/777850?spm=a2c6h.12873581.0.dArticle777850.118d6446r096V4&groupCode=alitech)
+- [IDEA 插件开发入门教程](https://blog.xiaohansong.com/idea-plugin-development.html)
+
+##  07 后记
+
+我们开发 IDEA 插件主要是为了让 IDEA 更加好用，比如有些框架使用之后可以减少重复代码的编写、有些主题类型的插件可以让你的IDEA更好看。
+
+我这篇文章的这个案例说实话只是为了让大家简单入门一下 IDEA 开发，没有任何实际应用意义。**如果你想要开发一个不错的 IDEA 插件的话，还要充分发挥想象，利用IDEA插件平台的能力。**
+
+*早起肝文，还要早点出门！觉得不错，大家三连一波鼓励一下这“货”？* （纯粹是为了押韵，不容易！年轻人讲啥武德！哈哈哈！）
+
+
 
