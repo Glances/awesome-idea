@@ -1,10 +1,14 @@
 我这个人没事就喜欢推荐一些好用的 [IDEA 插件](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&album_id=1319419426898329600&__biz=Mzg2OTA0Njk0OA==#wechat_redirect)给大家。这些插件极大程度上提高了我们的生产效率以及编码舒适度。
 
-不知道大家有没有想过自己开发一款 IDEA 插件呢？
+**不知道大家有没有想过自己开发一款 IDEA 插件呢？**
 
 我自己想过，但是没去尝试过。刚好有一位读者想让我写一篇入门 IDEA 开发的文章，所以，周末就花了一下午时间写了这篇文章。
 
-不过，这篇文章只是简单带各位小伙伴入门一下 IDEA 插件开发，个人精力有限，暂时不会深入探讨太多。如果你已经有 IDEA 插件开发的相关经验的话，这篇文章就可以不用看了，因为会浪费你 3 分钟的时间。
+![image-20201118071711216](../../../../Library/Application Support/typora-user-images/image-20201118071711216.png)
+
+不过，**这篇文章只是简单带各位小伙伴入门一下 IDEA 插件开发**，个人精力有限，暂时不会深入探讨太多。如果你已经有 IDEA 插件开发的相关经验的话，这篇文章就可以不用看了，因为会浪费你 3 分钟的时间。
+
+好的废话不多说！咱们直接开始!
 
 ## 01 新建一个基于Gradle的插件项目
 
@@ -14,7 +18,7 @@
 
 ![选择 Gradle 项目类型并勾选上相应的依赖](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/1.png)
 
-**第二步，填写项目相关的属性比如 GroupId。**
+**第二步，填写项目相关的属性比如 GroupId、ArtifactId。**
 
 ![填写项目相关的属性](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/2.png)
 
@@ -28,18 +32,9 @@
 
 ![插件项目结构概览](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/%E6%8F%92%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E6%A6%82%E8%A7%88.png)
 
-这里需要额外注意的是下面这两个配置文件：
+这里需要额外注意的是下面这两个配置文件。
 
-- `plugin.xml`   ：插件的核心配置文件。通过它可以配置插件名称、插件介绍、插件作者信息、Action等信息。
--  `build.gradle`  ：项目依赖配置文件。通过它可以配置项目第三方依赖、插件版本、插件版本更新记录等信息。
-
-因为，没有开发过 IDEA 插件的小伙伴直接看这两个配置文件内容可能会有点蒙。所以，我专门找了一个 IDEA 插件市场提供的现成插件来说明一下。
-
-![插件信息](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/iShot2020-11-13%2016.15.53.png)
-
-小伙伴们对照上面这张图来看下面的配置文件内容就非常非常清晰了。
-
- `plugin.xml`  
+ **`plugin.xml`  ：插件的核心配置文件。通过它可以配置插件名称、插件介绍、插件作者信息、Action等信息。**
 
 ```xml
 <idea-plugin>
@@ -68,7 +63,7 @@
 </idea-plugin>
 ```
 
-`build.gradle`
+**`build.gradle` ：项目依赖配置文件。通过它可以配置项目第三方依赖、插件版本、插件版本更新记录等信息。**
 
 ```groovy
 plugins {
@@ -101,6 +96,14 @@ patchPluginXml {
       <em>most HTML tags may be used</em>"""
 }
 ```
+
+没有开发过 IDEA 插件的小伙伴直接看这两个配置文件内容可能会有点蒙。所以，我专门找了一个 IDEA 插件市场提供的现成插件来说明一下。小伙伴们对照下面这张图来看下面的配置文件内容就非常非常清晰了。
+
+![插件信息](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/iShot2020-11-13%2016.15.53.png)
+
+这就非常贴心了！如果这都不能让你点赞，我要这文章有何用!
+
+![](http://wx1.sinaimg.cn/large/006BkP2Hly1fsxxff7zd9g304g0480td.gif)
 
 ## 03 手动创建Action
 
@@ -141,7 +144,7 @@ public class HelloAction extends AnAction {
 
 ```
 
-我们上面也说了，每个动作都会归属到一个Group中，这个Group可以简单看作 IDEA中已经存在的菜单。
+另外，我们上面也说了，每个动作都会归属到一个Group中，这个Group可以简单看作 IDEA中已经存在的菜单。
 
 举个例子。我上面创建的 Action 的所属 Group 是 **ToolsMenu(Tools)** 。这样的话，我们创建的 Action 所在的位置就在 Tools 这个菜单下。
 
@@ -164,13 +167,35 @@ public class HelloAction extends AnAction {
 
 ## 04 验收成果
 
+点击 `Gradle -> runIde` 就会启动一个默认了这个插件的 IDEA。然后，你可以在这个IDEA上实际使用这个插件了。
+
+![点击 runIde 就会启动一个默认了这个插件的 IDEA](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118075912490.png)
+
+效果如下：
+
+![点击 runIde 就会启动一个默认了这个插件的 IDEA](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118080358764.png)
+
 我们点击自定义的Hello Action的话就会弹出一个对话框并展示出我们自定义的信息。
 
 ![IDEA插件HelloWorld](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/IDEA%E6%8F%92%E4%BB%B6HelloWorld.png)
 
 ## 05 完善一下
 
-我们可以通过 Swing 来写一个界面，简单实现一个聊天机器人。代码的话，我是直接参考的我大学刚学 Java 那会写的一个小项目（*当时写的实在太烂了！*）。
+想要弄点界面花里胡哨一下， 我们还可以通过 Swing 来写一个界面。
+
+这里我们简单实现一个聊天机器人。代码的话，我是直接参考的我大二刚学 Java 那会写的一个小项目（*当时写的代码实在太烂了！就很菜！*）。
 
 ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201114100213337.png)
+
+首先，你需要在[图灵机器人官网](http://www.tuling123.com/)申请一个机器人。（*其他机器人也一样，感觉这个图灵机器人没有原来好用了，并且免费调用次数也不多*）
+
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2020-11/image-20201118075453172.png)
+
+然后，简单写一个方法来请求调用机器人。由于代码比较简单，我这里就不放出来了，大家简单看一下效果就好。
+
+代码地址：
+
+![image-20201118075803163](../../../../Library/Application Support/typora-user-images/image-20201118075803163.png)
+
+## 06 深入学习
 
