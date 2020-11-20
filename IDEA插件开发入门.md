@@ -213,3 +213,7 @@ public class HelloAction extends AnAction {
 我这篇文章的这个案例说实话只是为了让大家简单入门一下 IDEA 开发，没有任何实际应用意义。**如果你想要开发一个不错的 IDEA 插件的话，还要充分发挥想象，利用 IDEA 插件平台的能力。**
 
 _早起肝文，还要早点出门！觉得不错，大家三连一波鼓励一下这“货”？_ （纯粹是为了押韵，不容易！年轻人讲啥武德！哈哈哈！）
+
+图解计算机基础+个人原创的 Java 面试手册PDF版下载地址： 链接: [https://pan.baidu.com/s/1S5VBDPzFSZO3p5uPNYdMzg](https://pan.baidu.com/s/1S5VBDPzFSZO3p5uPNYdMzg)  密码: 56bs
+
+![](https://img-blog.csdnimg.cn/img_convert/453fe80ef8fb263ac9716942f65fe4d7.png)
