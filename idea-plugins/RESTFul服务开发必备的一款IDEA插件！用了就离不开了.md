@@ -36,7 +36,7 @@ REST 即 **REpresentational State Transfer** 的缩写。这个词组的翻译�
 
 > 如果你因为网络问题没办法使用 IDEA 自带的插件市场的话，也可以通过[IDEA 插件市场的官网](https://plugins.jetbrains.com/idea)手动下载安装。
 
-![image-20201102200204765](../../../../../Library/Application Support/typora-user-images/image-20201102200204765.png)
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images-3@main/11-7/image-20201102200204765.png)
 
 ### 简单使用
 
@@ -44,13 +44,13 @@ REST 即 **REpresentational State Transfer** 的缩写。这个词组的翻译�
 
 根据 URL 直接跳转到对应的方法定义 (Windows: `ctrl+\` or `ctrl+alt+n`  Mac:`command+\` or `command+alt+n`  )并且提供了一个服务的树形可视化显示窗口。 如下图所示。
 
-![](./pictures/RestfulToolkit1.png)
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images-3@main/11-20-11/RestfulToolkit1.png)
 
 #### 作为HTTP请求工具
 
 这个插件还可以作为一个简单的 http 请求工具来使用。如下图所示。
 
-![](./pictures/RestfulToolkit2.png)
+![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images-3@main/11-20/RestfulToolkit2.png)
 
 #### 复制生成 URL、复制方法参数...
 
@@ -58,7 +58,7 @@ REST 即 **REpresentational State Transfer** 的缩写。这个词组的翻译�
 
 举个例子。我们选中 `Controller`  中的某个请求对应的方法右击，你会发现多了几个可选项。当你选择`Generate & Copy Full URL`的话，就可以把整个请求的路径直接复制下来。eg：`http://localhost:9333/api/users?pageNum=1&pageSize=1` 。
 
-![](./pictures/RestfulToolkit3.png)
+![](pictures/RestfulToolkit3.png)
 
 #### 将Java类转换为对应的JSON格式
 
@@ -66,7 +66,7 @@ REST 即 **REpresentational State Transfer** 的缩写。这个词组的翻译�
 
 我们选中的某个类对应的方法然后右击，你会发现多了几个可选项。
 
-![](./pictures/RestfulToolkit4.png)
+![](pictures/RestfulToolkit4.png)
 
 当我们选择`Convert to JSON`的话，你会得到如下 json 类型的数据：
 
